@@ -6,44 +6,54 @@
     <title>Nellie's film picks</title>
     <link rel="stylesheet" href="style.css">
     <script src="./function.js"></script>
+    <script>
+        changebackgroundcolor();
+        </script>
 </head>
 <body>
     <header>
         <nav>
-            <button onclick="changebackgroundcolor()">Change the background to white</button>
-            <h1>Nellie's film picks</h1>
+            <button onclick="changebackgroundcolor()">Change the background colour</button>
+            <h1>🎞️Nellie's film picks🎞️</h1>
                 <ul>
-            <l><a href="https://ritchie2710.github.io/class4-html/"><button>Ritchie's film picks</button></a></l>
-            <l><a href="https://maxpollock.github.io/Films_Collab/"><button> Max's film picks</button></a></l>
-            <l><a href="https://windyshepperhenderson.github.io/lab4sam/"><button>Rory's film picks</button></a></l>
+            <l><a href="https://ritchie2710.github.io/class4-html/" target="_blank"><button>Ritchie's film picks</button></a></l>
+            <l><a href="https://maxpollock.github.io/Films_Collab/" target="_blank"><button> Max's film picks</button></a></l>
+            <l><a href="https://windyshepperhenderson.github.io/lab4sam/" target="_blank"><button>Rory's film picks</button></a></l>
         </ul>
         </nav>
     </header>
 <main>
-    <p>
+    <p class="hello">
         <script>
         greet();
         </script>
         </p>
-        <p>
+        <p class="hello">
         <script>
             answer();
             </script>
             </p>
-    <img src="./Images/Disney logo.png" alt="Disney+ logo" width="1000" height="500" class="centred-picture">
-<p>For me, I really love Disney+. Disney +, it's a big bunch of films, it has the films (it has the films). I can't imagine a more beautiful thing</p>
-<div>
-    <img src="./Images/Little Mermaid.jpg" alt="Little Mermaid film poster">
-    <p>This is my comfort film</p>
-</div>
-<div>
-    <img src="./Images/Devil wears Prada.jpg" alt="Devil Wears Prada film poster">
-    <p>This film is iconic.</p>
-</div>
-<div>
-    <img src="./Images/HSM.jpeg" alt="High School Musical film poster">
-    <p>Some of the best songs in film history can be found in this very masterpiece.</p>
-</div>
+            <div class="main-pic">
+                <img src="./Images/Disney logo.png" alt="Disney+ logo" width="100%">
+                <p>For me, I really love Disney+. Disney +, it's a big bunch of films, it has the films (it has the films). I can't imagine a more beautiful thing</p>
+            </div>
+                <div class="row">
+        <div class="column">
+            <img src="./Images/Little Mermaid.jpg" alt="Little Mermaid film poster" width="100%">
+            <p>This is my comfort film.</p>
+        </div>
+        <div class="column">
+            <img src="./Images/Devil wears Prada.jpg" alt="Devil Wears Prada film poster" width="100%">
+            <p>This film is iconic.</p>
+        </div>
+        <div class="column">
+            <img src="./Images/HSM.jpeg" alt="High School Musical film poster" width="100%">
+            <br>
+            <br>
+            <br>
+            <p>Some of the best songs in film history can be found in this very masterpiece.</p>
+        </div>
+    </div>
 </main>
 <footer>
     <p> &copy; Copyright MNRR limited </p>
